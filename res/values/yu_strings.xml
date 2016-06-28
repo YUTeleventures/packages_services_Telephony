@@ -21,4 +21,19 @@
     <string name="phone_number_summary">Set the phone number for this device</string>
     <string name="msisdn_alpha_tag" translatable="false">Voice Line 1</string>
 
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/WCDMA/GSM</item>
+        <item>LTE Only</item>       
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>WCDMA/GSM preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values"  translatable="false">  
+        <item>"9"</item>
+       <item>"11"</item>     
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"0"</item>
+    </string-array>
+
 </resources>
